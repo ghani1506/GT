@@ -414,7 +414,7 @@ function playUploaded(index) {{
   src.start();
 }}
 
-function playSynth(freq) {
+function playSynth(freq) {{
   const tone = toneSelect.value || 'caklempong';
   if (tone === 'bell') return playBell(freq);
   if (tone === 'kalimba') return playKalimba(freq);
