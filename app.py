@@ -246,10 +246,10 @@ component_html = f"""
     contain: layout paint style;
   }}
 
-  .pad.natural {
+  .pad.natural {{
     grid-row: 2;
-  }
-  .pad.sharp {
+  }}
+  .pad.sharp {{
     grid-row: 1;
     width: calc(var(--pad-size) * .72);
     height: calc(var(--pad-size) * .72);
@@ -263,7 +263,7 @@ component_html = f"""
       inset 0 -12px 22px rgba(0,0,0,.50),
       0 12px 24px rgba(0,0,0,.45),
       0 0 0 6px rgba(245,197,66,.06);
-  }
+  }}
   .pad img {{
     position: absolute;
     inset: 0;
